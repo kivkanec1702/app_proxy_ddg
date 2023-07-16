@@ -19,15 +19,12 @@ Bootstrap CSS okvir koristi se za stvaranje modernog i responsivnog dizajna apli
 
 1. Klonirajte ovaj repozitorij na svoje računalo.
 2. Instalirajte potrebne dependencije pomoću naredbe: `npm install`.
-
-## Upute za pokretanje
-
-1. Korisik mora navigirati u folder proxy-app u kojem se nalazi server.js file u    prvom direktoriju se nalazi backend dio.
-2. Naredbom 'npm start' se pokreće server koji sluša na portu 5000.
-3. Korsnik mora otvoriti novi termina i unutar proxy-app folder navigirati u folder koji se isto tako zove proxy-app u kojemu se nalazi frontend.
-4. Naredbom 'npm start' se pokreće frontend koji se otvara na portu 3000.
-5. U tražilicu upisite sljedeći url: http://localhost:3000/
-6. Kada se stranica korisnik može pretraživati DuckDuckGo.
+3. Korisnik mora u prvom folderu app_proxy_ddg gdje se nalazi server.js i package.json odraditi komandu npm install. Kada to odradi je instalirao sve potrebno za backend. Onda mora navigirati u folder proxy-app i tamo isto odraditi kako bi instalirao sve potrebno za frontend.
+4. Naredbom 'npm start' se pokreće server koji sluša na portu 5000.
+5. Korsnik mora otvoriti novi termina i unutar proxy-app folder navigirati u folder koji se isto tako zove proxy-app u kojemu se nalazi frontend.
+6. Naredbom 'npm start' se pokreće frontend koji se otvara na portu 3000.
+7. U tražilicu upisite sljedeći url: http://localhost:3000/
+8. Kada se stranica korisnik može pretraživati DuckDuckGo.
 
 ## Autor
 
