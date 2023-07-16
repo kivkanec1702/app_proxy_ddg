@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar {
+  width: 20%;
+  float: left;
+  
+}
+
+.sidebar {
+  /* Stilovi za zatvoreni sidebar */
+  width: 0;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar.open {
+  /* Stilovi za otvoreni sidebar */
+  float: left;
+  display: block;
+  width: 200px;
+  height: 97vh;
+  border: solid;
+  overflow: auto;
+}
+
+.main {
+  width: 80%;
+  float: right;
+  overflow: auto;
+}
+
+.searchInputGroup {
+  margin: 0 auto;
+  margin-bottom: 5%;  
+  width: 50%;
+}
+
+.image-container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.search-input {
+  width: 100px;
+}
+
+.searchButton {
+  width: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sidebarButton {
+  float: left;
+  width: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.reactIcons {
+    margin-left: 5%;
+}
+
+.numbered-list {
+  list-style: none;
+  counter-reset: list-counter;
+  padding-left: 0;
+}
+
+.numbered-list li {
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 30px;
+}
+
+.numbered-list .list-number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.saerchHistoryTitle{
+  text-align: center;
+  font-style: italic;
+}

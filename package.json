@@ -1,0 +1,16 @@
+{
+  "name": "proxy-app",
+  "version": "1.0.0",
+  "description": "This app is designed to search with duck duck go",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules server.js"
+  },
+  "author": "Kresimir Ivkanec",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
